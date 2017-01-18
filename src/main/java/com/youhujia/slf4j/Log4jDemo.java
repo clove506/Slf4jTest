@@ -1,8 +1,7 @@
 package com.youhujia.slf4j;
 
 import org.apache.log4j.Logger;
-import org.apache.log4j.spi.LoggerFactory;
-import org.junit.Test;
+import org.junit.jupiter.api.Test;
 
 /**
  * Created by clove on 2017/1/18.
@@ -29,22 +28,6 @@ public class Log4jDemo {
         }
     }
 
-    /**
-     * log4j.rootLogger=info,A1
-     #log4j.logger.com.youhujia = DEBUG
-
-     log4j.appender.A1=org.apache.log4j.ConsoleAppender
-     #log4j.appender.A1.layout=org.apache.log4j.PatternLayout
-     log4j.appender.A1.layout=org.apache.log4j.PatternLayout
-     log4j.appender.A1.layout.ConversionPattern=%-d{yyyy-MM-dd HH:mm:ss,SSS} [%t] [%c]-[%p] %m%n
-
-
-     log4j的日志级别：
-
-
-
-
-     */
     @Test
     public void Log4j() {
 
@@ -65,4 +48,6 @@ public class Log4jDemo {
             logger.debug(e.getMessage(), e);
         }
     }
+
+
 }

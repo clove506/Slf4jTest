@@ -1,6 +1,8 @@
 package com.youhujia.slf4j;
 
-import org.junit.Test;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
+import org.testng.annotations.Test;
 
 
 /**
@@ -8,7 +10,7 @@ import org.junit.Test;
  */
 public class Demo {
 
-//    final Logger logger = LoggerFactory.getLogger(getClass());
+    final Logger logger = LoggerFactory.getLogger(getClass());
     Integer t;
     Integer oldT;
 
@@ -17,10 +19,10 @@ public class Demo {
         oldT = t;
         t = temperature;
 
-//        logger.debug("Temperature set to {}. Old temperature was {}.", t, oldT);
+        logger.debug("Temperature set to {}. Old temperature was {}.", t, oldT);
 
         if (temperature.intValue() > 50) {
-//            logger.info("Temperature has risen above 50 degrees.");
+            logger.info("Temperature has risen above 50 degrees.");
         }
     }
 
