@@ -1,0 +1,25 @@
+group 'com.youhujia.slf4j'
+version '1.0-SNAPSHOT'
+
+repositories {
+    maven { url "http://maven.aliyun.com/nexus/content/groups/public" }
+    jcenter()
+    mavenLocal()
+}
+
+apply plugin: 'java'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    testCompile group: 'junit', name: 'junit', version: '4.11'
+   // compile group: "org.slf4j", name: "jcl104-over-slf4j", version: "1.5.11"
+//    compile group: "commons-logging", name: "commons-logging", version: "1.2"
+//    compile group: "org.slf4j", name: "slf4j-api", version: "1.7.22"
+//    compile group: "org.slf4j", name: "slf4j-log4j12", version: "1.7.22"
+    compile group: "log4j", name: "log4j", version: "1.2.9"
+//    compile group: "org.slf4j", name: "slf4j-simple", version: "1.7.22"
+    
+}
