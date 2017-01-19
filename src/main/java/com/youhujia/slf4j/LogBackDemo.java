@@ -11,6 +11,9 @@ public class LogBackDemo {
 
         System.out.println("dddd");
         System.out.println("dddd");
+        System.out.println("dddd");
+        System.out.println("dddd");
+        System.out.println("dddd");
     }
 
 
