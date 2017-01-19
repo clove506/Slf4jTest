@@ -6,6 +6,12 @@ package com.youhujia.slf4j;
 public class LogBackDemo {
 
 
+    public static void main(String[] args) {
+
+
+        System.out.println("dddd");
+        System.out.println("dddd");
+    }
 
 
 
