@@ -35,7 +35,7 @@ overridedb.*
 *.iml
 *.ipr
 *.iws
-.idea
+
 .mvn
 *.jar
 .DS_Store
@@ -47,7 +47,7 @@ logs
 
 # newrelic
 newrelic
-.idea/workspace.xml
+
 
 
 
